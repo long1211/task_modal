@@ -23,7 +23,17 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+.ant-modal-content{
+  padding: 0 !important;
 
+}
+.dup_class{
+  padding: 0 !important;
+}
+.ant-table-content{
+  max-height: 600px;
+  overflow-y: scroll;
+}
 .App-link {
   color: #61dafb;
 }
