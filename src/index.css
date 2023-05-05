@@ -7,5 +7,6 @@ body {
   font-family: 'Noto Sans JP', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  border-color: #869BB8 !important;
   /* height: 100vh; */
 }
