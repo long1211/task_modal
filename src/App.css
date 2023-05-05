@@ -31,8 +31,14 @@
   padding: 0 !important;
 }
 .ant-table-content{
-  max-height: 600px;
+  max-height: 800px;
   overflow-y: scroll;
+}
+.ant-table-thead .ant-table-cell{
+  text-align: center !important;
+}
+.ant-table-tbody .ant-table-cell:not(:last-child){
+  text-align: center !important;
 }
 .App-link {
   color: #61dafb;

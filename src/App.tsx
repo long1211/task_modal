@@ -84,19 +84,19 @@ function App() {
       <Modal
         centered
         open={modal}
-        width={1200}
+        width={1510}
         footer={null}
         closable={false}
       >
         <div className=''>
-          <div className='relative py-[25px] bg-[#E5E8F7] rounded-t-[4px]'>
+          <div className='relative py-[25px] bg-[#E5E8F7] rounded-t-[4px] border-b-[1px] border-[#CDD5EB]'>
             <label className='absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] text-[20px] font-medium text-[#211512]'>コメント確認</label>
             <CloseOutlined className='absolute top-[50%] translate-x-[-100%] translate-y-[-50%] right-0' onClick={() => setModal(false)} />
           </div>
           <Table
             columns={columns}
             dataSource={data}
-            className='p-3'
+            className='p-[25px]'
             bordered
             pagination={false}
           />
