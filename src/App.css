@@ -36,8 +36,15 @@
 .ant-table-thead .ant-table-cell {
   background-color: #E7EDF6 !important;
 }
-
-
+:where(.css-dev-only-do-not-override-yp8pcc).ant-table-wrapper .ant-table-container{
+  border-radius: 0;
+}
+:where(.css-dev-only-do-not-override-yp8pcc).ant-table-wrapper .ant-table-container table>thead>tr:first-child >*:first-child{
+  border-radius: 0;
+}
+:where(.css-dev-only-do-not-override-yp8pcc).ant-table-wrapper .ant-table-container table>thead>tr:first-child >*:last-child{
+  border-radius: 0;
+}
 .ant-btn-default:hover {
   border-color: #BABABA !important;
   color: #fff !important;
