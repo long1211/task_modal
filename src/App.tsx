@@ -101,7 +101,7 @@ function App() {
             pagination={false}
           />
           <div className='flex items-center justify-center py-3'>
-            <Button className='px-[30px] rounded-[19px]' disabled onClick={() => setModal(false)}>閉じる</Button>
+            <Button className='px-[30px] rounded-[19px] w-[128px] h-[38px] bg-[#BABABA] text-white' onClick={() => setModal(false)}>閉じる</Button>
           </div>
 
         </div>

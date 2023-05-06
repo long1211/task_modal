@@ -23,23 +23,48 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-.ant-modal-content{
+
+.ant-modal-content {
   padding: 0 !important;
 
 }
-.dup_class{
+
+.dup_class {
   padding: 0 !important;
 }
-.ant-table-content{
+
+.ant-table-thead .ant-table-cell {
+  background-color: #E7EDF6 !important;
+}
+
+
+.ant-btn-default:hover {
+  border-color: #BABABA !important;
+  color: #fff !important;
+}
+
+.ant-btn-default {
+  border-color: #BABABA !important;
+}
+
+.ant-table-content {
   max-height: 800px;
   overflow-y: scroll;
 }
-.ant-table-thead .ant-table-cell{
+
+.ant-table-tbody .ant-table-cell:not(:last-child) {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.ant-table-thead .ant-table-cell {
   text-align: center !important;
 }
-.ant-table-tbody .ant-table-cell:not(:last-child){
+
+.ant-table-tbody .ant-table-cell:not(:last-child) {
   text-align: center !important;
 }
+
 .App-link {
   color: #61dafb;
 }
@@ -48,7 +73,30 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 4px;
+
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #BABABA;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #BABABA;
 }
